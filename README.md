@@ -7,7 +7,7 @@ Makes phising emails to test company's employees if they click the link.
 3) HR/Internal Communication Impersonation
 4) Quishing (QR Code Phishing)
 
-Enter Sender email and the email who receives it.
+Enter the receivers email and select the type.
 
 - Python for back-end
 - HTML for email templates
