@@ -12,3 +12,9 @@ Enter Sender email and the email who receives it.
 - Python for back-end
 - HTML for email templates
 - Simple database to track results
+
+FIXES NEEDED:
+- image doesnt load
+- more types
+- database
+- terminal screen
