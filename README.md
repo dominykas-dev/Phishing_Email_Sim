@@ -14,7 +14,7 @@ Enter the receivers email and select the type.
 - Simple database to track results
 
 FIXES NEEDED:
-- image doesnt load
-- more types
 - database
-- terminal screen
+
+COOL ADDITIONS:
+- terminal screen with curses

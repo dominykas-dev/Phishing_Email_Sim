@@ -12,13 +12,17 @@ sg = SendGridAPIClient(api)
 def choosing():
     templates = {
 
-        1: "Phising_Email_Sim\email_templates\password_mail.html"
+        1: "Phising_Email_Sim\email_templates\password_mail.html",
+        2: "Phising_Email_Sim\email_templates\order_confirmation.html",
+        3: "Phising_Email_Sim\email_templates\impersonation.html",
+        4: "Phising_Email_Sim\email_templates\quishing.html"
 
     }
 
     receiver = input("Type in receiver mail: ")
 
     while True:
+        print("1 - Password Reset\n2 - Order Confirmation\n3 - Impersonation\n4 - Quishing")
         choice = int(input("Choose phishing email type (1-4): "))
         if choice in templates:
             return templates[choice], receiver
