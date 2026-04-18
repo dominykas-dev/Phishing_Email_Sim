@@ -12,12 +12,9 @@ Enter the receivers email and select the type.
 - Python for back-end
 - HTML for email templates
 - Simple database to track results
-<<<<<<< HEAD
 
 FIXES NEEDED:
 - image doesnt load
 - more types
 - database
 - terminal screen
-=======
->>>>>>> fad81ee23c971634bdf02fb0a3d56603f0c14175
