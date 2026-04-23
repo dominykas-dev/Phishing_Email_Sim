@@ -13,8 +13,14 @@ Enter the receivers email and select the type.
 - HTML for email templates
 - Simple database to track results
 
-FIXES NEEDED:
-- database
-
 COOL ADDITIONS:
 - terminal screen with curses
+
+Everything is ready for use. 
+Some email templates are being bounced because of SendGrid policy.
+
+Also to use this you need:
+- Sender Email(I made mine with Outlook)
+- SendGrid API
+- Postgesql database to store everything
+- Datbase URL
